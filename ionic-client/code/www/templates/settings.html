@@ -1,0 +1,10 @@
+<ion-view view-title="설정" class="settings-page">
+  <ion-content scroll="true">
+
+    <ion-item ng-repeat="setting in settings" class="item-avatar">
+       <h2>{{ setting.name }}</h2>
+       <p>{{ setting.value }}</p>
+    </ion-item>
+
+  </ion-content>
+</ion-view>
